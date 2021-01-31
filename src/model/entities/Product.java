@@ -31,7 +31,7 @@ public class Product {
     }
 
     public void nonStaticPriceUpdate() {
-        setPrice(getPrice() * 1.10);
+        price *= 1.10;
     }
 
     @Override
